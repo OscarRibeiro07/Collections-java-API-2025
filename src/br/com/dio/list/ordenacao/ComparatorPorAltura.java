@@ -1,0 +1,10 @@
+package br.com.dio.list.ordenacao;
+
+import java.util.Comparator;
+
+public class ComparatorPorAltura implements Comparator<Pessoa> {
+    @Override
+    public int compare(Pessoa o1, Pessoa o2) {
+        return 0;
+    }
+}
