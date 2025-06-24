@@ -13,9 +13,10 @@ public class Pessoa implements  Comparable<Pessoa>{
         this.altura = altura;
     }
 
+    // comparando a idade da pessoa pela idade da pessoa do compare Pessoa(o)
     @Override
     public int compareTo(Pessoa o) {
-        return 0;
+        return Integer.compare(idade, o.getIdade());
     }
 
     @Override
