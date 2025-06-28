@@ -1,10 +1,10 @@
-package br.com.dio.list.pesquisa;
+package br.com.dio.collection.list.pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class CatalogoLivros {
-    private List<Livro> livroList;
+    private final List<Livro> livroList;
 
     public CatalogoLivros() {
         this.livroList = new ArrayList<>();

@@ -1,11 +1,11 @@
-package br.com.dio.list.ordenacao;
+package br.com.dio.collection.list.ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class OrdenacaoPessoa {
-    private List<Pessoa> pessoaList;
+    private final List<Pessoa> pessoaList;
 
     public OrdenacaoPessoa() {
         this.pessoaList = new ArrayList<>();

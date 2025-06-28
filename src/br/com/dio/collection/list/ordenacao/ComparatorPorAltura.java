@@ -1,4 +1,4 @@
-package br.com.dio.list.ordenacao;
+package br.com.dio.collection.list.ordenacao;
 
 import java.util.Comparator;
 

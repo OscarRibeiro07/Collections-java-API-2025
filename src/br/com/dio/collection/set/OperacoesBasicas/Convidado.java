@@ -1,10 +1,10 @@
-package br.com.dio.list.OperacoesBasicas;
+package br.com.dio.collection.set.OperacoesBasicas;
 
 import java.util.Objects;
 
 public class Convidado {
-    private String nome;
-    private int convite;
+    private final String nome;
+    private final int convite;
 
     public Convidado(String nome, int convite) {
         this.nome = nome;

@@ -1,10 +1,10 @@
-package br.com.dio.list.OperacoesBasicas;
+package br.com.dio.collection.set.OperacoesBasicas;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class ConjuntoConvidados {
-    private Set<Convidado> setConvidados;
+    private final Set<Convidado> setConvidados;
 
     public ConjuntoConvidados() {
         this.setConvidados = new HashSet<>();
