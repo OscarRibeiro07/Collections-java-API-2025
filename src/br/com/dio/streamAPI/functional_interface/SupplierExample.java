@@ -1,4 +1,4 @@
-package functional_interface.examples;
+package br.com.dio.streamAPI.functional_interface;
 
 import java.util.List;
 import java.util.function.Supplier;
